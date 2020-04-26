@@ -1,14 +1,11 @@
 import React from 'react';
 import './index';
-import Timer from './Timer';
-import Menu from './Menu';
-import UserLogin from './UserLogin';
 import Counter from './Counter';
 import Dice from './Dice';
 import Navigation from './Navigation'
 import Slider from './Slider';
-import Data from './Data';
-
+import Users from './Pages/Users';
+import MultiplePages from './MultiplePages';
 
 class App extends React.Component {
   state = { active: "" };
@@ -23,10 +20,8 @@ class App extends React.Component {
       Dice: <Dice />,
       Navigation: <Navigation />,
       Slider: <Slider />,
-      Timer: <Timer />,
-      Menu: <Menu />,
-      UserLogin: <UserLogin />,
-      Data: <Data/>
+      Users: <Users/>,
+      Pages: <MultiplePages/>
     }
 
     return (
@@ -36,10 +31,8 @@ class App extends React.Component {
           <div className="exercise">Dice</div>
           <div className="exercise">Navigation</div>
           <div className="exercise">Slider</div>
-          <div className="exercise">Timer</div>
-          <div className="exercise">Menu</div>
-          <div className="exercise">UserLogin</div>
-          <div className="exercise">Data</div>
+          <div className="exercise">Users</div>
+          <div className="exercise">Pages</div>
         </div>
 
         <div >
