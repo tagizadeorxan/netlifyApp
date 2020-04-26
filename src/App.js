@@ -7,6 +7,7 @@ import Counter from './Counter';
 import Dice from './Dice';
 import Navigation from './Navigation'
 import Slider from './Slider';
+import Data from './Data';
 
 
 class App extends React.Component {
@@ -24,7 +25,8 @@ class App extends React.Component {
       Slider: <Slider />,
       Timer: <Timer />,
       Menu: <Menu />,
-      UserLogin: <UserLogin />
+      UserLogin: <UserLogin />,
+      Data: <Data/>
     }
 
     return (
@@ -37,6 +39,7 @@ class App extends React.Component {
           <div className="exercise">Timer</div>
           <div className="exercise">Menu</div>
           <div className="exercise">UserLogin</div>
+          <div className="exercise">Data</div>
         </div>
 
         <div >
