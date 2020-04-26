@@ -8,7 +8,6 @@ import App from './App';
 ReactDOM.render(
   <>
      <App/>
-     <h1>Kubra</h1>
   </>,
   document.getElementById('root')
 );
